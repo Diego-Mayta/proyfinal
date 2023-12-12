@@ -19,6 +19,8 @@ const Formulario = () => {
     });
   };
 
+  
+
   const cambioColor = (e) => {
     console.log(e.target)
     const selectedColor = e.target.value;
