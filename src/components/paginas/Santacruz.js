@@ -6,7 +6,7 @@ const Santacruz = () => {
     <h2>DANZAS DEL DEPARTAMENTO SANTA CRUZ</h2>
 </header>
 <div class="cuerpo">
-    <h2>RESUMEN</h2>
+    <h2 id='uno'>RESUMEN</h2>
     <div class="container-fluid">    
         <p>
             Entre las danzas típicas del departamento de Santa Cruz tenemos; La cueca cruceña, El Carnavalito una danza nacida al calor del Huayño valluno, la chovena una danza que se baila en los carnavales al ritmo del phifano de takuara, percusión, violín y acordeón

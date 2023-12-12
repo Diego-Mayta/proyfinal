@@ -12,6 +12,9 @@ import Beni from './components/paginas/Beni';
 import Santacruz from './components/paginas/Santacruz';
 import Inicio from './components/paginas/Inicio';
 import Formulario from './components/paginas/Formulario';
+import Creditos from './components/paginas/Creditos';
+import Login from './components/paginas/Login';
+import Sing from './components/paginas/Sing';
 function App() {
   return (
     <div className="App">
@@ -30,6 +33,9 @@ function App() {
         <Route path='/Beni' exact Component={Beni}></Route>
         <Route path='/Santacruz' exact Component={Santacruz}></Route>
         <Route path='/Formulario' exact Component={Formulario}></Route>
+        <Route path='/Creditos' exact Component={Creditos}></Route>
+        <Route path='/Login' exact Component={Login}></Route>
+        <Route path='/Sing' exact Component={Sing}></Route>
       </Routes>
     </Router>
     </div>
