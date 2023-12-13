@@ -21,6 +21,7 @@ function App() {
     
     <Router>
       <Navar/>
+      <Inicio></Inicio>
       <Routes>
         <Route path='/' exact Component={Inicio}></Route>
         <Route path='/Lapaz' exact Component={Lapaz}></Route>
