@@ -39,7 +39,7 @@ function App() {
         <Route path='/Login' exact Component={Login}></Route>
         <Route path='/Sing' exact Component={Sing}></Route>
       </Routes>
-      <div className="texto-inicio">Presiona a Chems para ir al INICIO</div>
+      <div className="texto-inicio">Presiona al logo de Chems en la esquina superior izquierda para ir al INICIO</div>
     </Router>
     
     </div>
