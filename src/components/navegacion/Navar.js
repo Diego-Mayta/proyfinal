@@ -20,7 +20,7 @@ const Navar = () => {
 
             <li className="nav-item dropdown ccc2">
               <Link className="nav-link dropdown-toggle active" to='' id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Paises
+                Departamentos
               </Link>
               <ul className="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
                 <li><Link className="dropdown-item" to='/lapaz'>La Paz</Link></li>

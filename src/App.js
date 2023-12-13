@@ -16,6 +16,7 @@ import Creditos from './components/paginas/Creditos';
 import Login from './components/paginas/Login';
 import Sing from './components/paginas/Sing';
 function App() {
+
   return (
     <div className="App">
     
@@ -38,7 +39,7 @@ function App() {
         <Route path='/Login' exact Component={Login}></Route>
         <Route path='/Sing' exact Component={Sing}></Route>
       </Routes>
-      <Inicio/>
+      <div className="texto-inicio">Presiona a Chems para ir al INICIO</div>
     </Router>
     
     </div>

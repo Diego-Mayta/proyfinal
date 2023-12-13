@@ -162,6 +162,12 @@ h3{
   transition: 0.5s;
   
 }
+
+.texto-inicio {
+  color: #fff;
+  font-size: 35px;
+}
+
 .este button span{
   background-color: #111;
   padding: 6px 14px;
