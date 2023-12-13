@@ -38,7 +38,7 @@ function App() {
         <Route path='/Login' exact Component={Login}></Route>
         <Route path='/Sing' exact Component={Sing}></Route>
       </Routes>
-      <Inicio></Inicio>  
+      <Inicio/>
     </Router>
     
     </div>
