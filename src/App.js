@@ -21,7 +21,7 @@ function App() {
     
     <Router>
       <Navar/>
-      <Inicio></Inicio>
+      
       <Routes>
         <Route path='/' exact Component={Inicio}></Route>
         <Route path='/Lapaz' exact Component={Lapaz}></Route>
@@ -38,7 +38,9 @@ function App() {
         <Route path='/Login' exact Component={Login}></Route>
         <Route path='/Sing' exact Component={Sing}></Route>
       </Routes>
+      <Inicio></Inicio>  
     </Router>
+    
     </div>
   );
 }
